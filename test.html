@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link href="/css/styles.css" rel="stylesheet">
+  <link href="/css/test.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://raw.githack.com/thirtysomethings/scrollsmoother/refs/heads/main/scroll.min.js" defer></script>
+  <script src="https://raw.githack.com/thirtysomethings/scrollsmoother/refs/heads/main/drawsvg.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="/js/script.js" defer></script>
+  <script src="/js/smooth.js" defer></script>
+  <script src="/js/partners_1.js" defer></script>
+  <script src="/js/intro.js" defer></script>
+  
+  <!---<script src="/js/partners_3.js" defer></script>
+  <script src="/js/partners_4.js" defer></script>-->
+
+  <style>
+
+
+  </style>
+</head>
+<body class="bg-[#0d0f0f] scroll-smooth">
+    
+<%- include('partials/header') %>
+
+<div class="h-[500px] bg-[#0d0f0f]"></div>
+
+<div class="animation-section relative bg-[#0d0f0f] h-[100vh] hidden lg:block">
+  <div id="atms__intro" class="content absolute top-[50vh] content-between flex">
+    <div id="atms__distributeeverything" class="relative ml-24">
+      <!-- First Child Div -->
+      <div class="bg-[#fec5fb] rounded-md text-center justify-center items-center px-5 py-2 relative z-10 shadow-[0_10px_20px_rgba(0,0,0,0.3)] inline-flex -top-44" style="position: relative;">
+        <span class="font-bold text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+          unlock your anthems
+        </span>
+      </div>
+    
+      <!-- Second Child Div -->
+      <div id="atms__lettheworld" class="bg-[#ff8709] rounded-md text-center flex justify-center items-center px-5 py-2 absolute -top-32 left-7 z-0">
+        <span class="font-bold text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl whitespace-nowrap">
+          let the whole world feel it
+        </span>
+      </div>
+
+      <!-- Text with same width as the second div -->
+      <div id="atms__whether" class="text-base md:text-lg lg:text-2xl xl:text-4xl text-[#fffce1] w-1/3 px-7">
+        <span class="block">
+          Whether you're releasing singles, albums, or creating exclusive drops, Anthems has your back.
+        </span>
+      </div>
+    </div>
+      <div class="lg:mt-0 lg:col-span-5 mr-48 lg:flex">
+        <svg width="185" height="208" viewBox="0 0 185 208" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="home-intro__line-flower" aria-hidden="true">
+          <path class="stem svg-elem-1" d="M3.50195 161.887C12.7976 141.392 32.3752 123.415 54.857 124.66C74.6848 125.747 91.604 142.133 97.3981 161.124C102.428 177.606 96.9212 199.906 80.1131 203.506C63.3051 207.106 49.276 189.656 44.8852 173.034C38.2435 148.111 43.1529 120.5 57.9462 99.4357C72.7395 78.3717 97.0601 64.2721 122.724 62" stroke="#9D95FF" stroke-width="6.72106" stroke-miterlimit="10" stroke-linecap="round"></path>
+          <g class="flower" data-svg-origin="123 62" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M104.184 54.2061L68.627 54.3435C64.41 54.3597 61 57.7829 61 62C61 66.2171 64.41 69.6403 68.627 69.6565L104.184 69.7939L79.1385 95.0335C76.1681 98.0269 76.1775 102.859 79.1594 105.841C82.1413 108.823 86.9731 108.832 89.9665 105.861L115.206 80.8161L115.343 116.373C115.36 120.59 118.783 124 123 124C127.217 124 130.64 120.59 130.657 116.373L130.794 80.8161L156.033 105.861C159.027 108.832 163.859 108.823 166.841 105.841C169.823 102.859 169.832 98.0269 166.861 95.0335L141.816 69.7939L177.373 69.6565C181.59 69.6403 185 66.2171 185 62C185 57.7829 181.59 54.3597 177.373 54.3435L141.816 54.2061L166.861 28.9665C169.832 25.9731 169.823 21.1413 166.841 18.1594C163.859 15.1775 159.027 15.1681 156.033 18.1385L130.794 43.1839L130.657 7.62704C130.64 3.40999 127.217 0 123 0C118.783 0 115.36 3.40998 115.343 7.62703L115.206 43.1839L89.9665 18.1385C86.9731 15.1681 82.1413 15.1775 79.1594 18.1594C76.1775 21.1413 76.1681 25.9731 79.1385 28.9665L104.184 54.2061Z" fill="white" class="svg-elem-2"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M104.184 54.2061L68.627 54.3435C64.41 54.3597 61 57.7829 61 62C61 66.2171 64.41 69.6403 68.627 69.6565L104.184 69.7939L79.1385 95.0335C76.1681 98.0269 76.1775 102.859 79.1594 105.841C82.1413 108.823 86.9731 108.832 89.9665 105.861L115.206 80.8161L115.343 116.373C115.36 120.59 118.783 124 123 124C127.217 124 130.64 120.59 130.657 116.373L130.794 80.8161L156.033 105.861C159.027 108.832 163.859 108.823 166.841 105.841C169.823 102.859 169.832 98.0269 166.861 95.0335L141.816 69.7939L177.373 69.6565C181.59 69.6403 185 66.2171 185 62C185 57.7829 181.59 54.3597 177.373 54.3435L141.816 54.2061L166.861 28.9665C169.832 25.9731 169.823 21.1413 166.841 18.1594C163.859 15.1775 159.027 15.1681 156.033 18.1385L130.794 43.1839L130.657 7.62704C130.64 3.40999 127.217 0 123 0C118.783 0 115.36 3.40998 115.343 7.62703L115.206 43.1839L89.9665 18.1385C86.9731 15.1681 82.1413 15.1775 79.1594 18.1594C76.1775 21.1413 76.1681 25.9731 79.1385 28.9665L104.184 54.2061Z" fill="url(#paint0_radial_1987_36247)" class="svg-elem-3"></path>
+          <path fill-opacity=".6" fill-rule="evenodd" clip-rule="evenodd" d="M104.184 54.2061L68.627 54.3435C64.41 54.3597 61 57.7829 61 62C61 66.2171 64.41 69.6403 68.627 69.6565L104.184 69.7939L79.1385 95.0335C76.1681 98.0269 76.1775 102.859 79.1594 105.841C82.1413 108.823 86.9731 108.832 89.9665 105.861L115.206 80.8161L115.343 116.373C115.36 120.59 118.783 124 123 124C127.217 124 130.64 120.59 130.657 116.373L130.794 80.8161L156.033 105.861C159.027 108.832 163.859 108.823 166.841 105.841C169.823 102.859 169.832 98.0269 166.861 95.0335L141.816 69.7939L177.373 69.6565C181.59 69.6403 185 66.2171 185 62C185 57.7829 181.59 54.3597 177.373 54.3435L141.816 54.2061L166.861 28.9665C169.832 25.9731 169.823 21.1413 166.841 18.1594C163.859 15.1775 159.027 15.1681 156.033 18.1385L130.794 43.1839L130.657 7.62704C130.64 3.40999 127.217 0 123 0C118.783 0 115.36 3.40998 115.343 7.62703L115.206 43.1839L89.9665 18.1385C86.9731 15.1681 82.1413 15.1775 79.1594 18.1594C76.1775 21.1413 76.1681 25.9731 79.1385 28.9665L104.184 54.2061Z" fill="url(#pattern-home-intro-flair-0)" style="mix-blend-mode: multiply;" class="svg-elem-4"></path>
+          </g>
+          <defs>
+          <pattern id="pattern-home-intro-flair-0" patternContentUnits="objectBoundingBox" width="0.806452" height="0.806452">
+          <use xlink:href="#svg-noise" transform="scale(0.0016129)"></use>
+          </pattern>
+          <radialGradient id="paint0_radial_1987_36247" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(99.1556 88.9263) rotate(-90) scale(97.6761)">
+          <stop stop-color="#FFEBE7"></stop>
+          <stop offset="0.6721" stop-color="#FF9C7C"></stop>
+          <stop offset="0.8164" stop-color="#FF9983"></stop>
+          <stop offset="0.9014" stop-color="#FF774B"></stop>
+          <stop offset="1" stop-color="#E76F00"></stop>
+          </radialGradient>
+          </defs>
+          </svg>  
+</div>
+</div>
+</div>
+
+
+
+    <div class="flex flex-col items-center justify-center min-h-screen">
+  
+ <!-- <button id="animateBtn" class="relative mt-5 px-4 rounded-full flex h-[1.8rem] outline outline-2 w-30 items-center justify-center font-bold overflow-hidden bg-transparent text-[#fffce1] transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#fffce1] before:duration-500 before:ease-out hover:text-black hover:before:h-56 before:-z-30 before:overflow-hidden hover:before:w-56">
+    <span class="relative -z-20">unlock the anthems</span>
+  </button> -->
+  <section class="md:mx-24 mx-12 overflow-hidden">
+    <hr id="atms_anim0" class="h-px md:bg-[#42433d] bg-transparent border-0 mb-40">
+    <div id="atms_asterisk0" class="h-0 w-0 ml-20 -z-30 xl:w-64 xl:h-64 absolute opacity-60">
+        <svg viewBox="0 0 157 156" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="translate: none; rotate: none; scale: none; transform: rotate(360deg);">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M82.2214 104.04L105.483 143.586C108.242 148.276 114.274 149.852 118.974 147.112V147.112C123.675 144.371 125.275 138.345 122.552 133.634L99.5971 93.9091L144.009 105.424C149.276 106.79 154.656 103.639 156.042 98.3773V98.3773C157.428 93.1154 154.298 87.7233 149.042 86.317L104.72 74.4593L144.266 51.1978C148.957 48.439 150.533 42.407 147.792 37.7062V37.7062C145.052 33.0054 139.026 31.4057 134.314 34.1282L94.5898 57.0835L106.105 12.6719C107.471 7.40463 104.32 2.02469 99.058 0.638673V0.638673C93.7961 -0.747342 88.4041 2.38242 86.9977 7.63895L75.14 51.9603L51.8786 12.4142C49.1197 7.72403 43.0878 6.14763 38.387 8.8883V8.8883C33.6862 11.629 32.0865 17.6548 34.809 22.3662L57.7643 62.0908L13.3526 50.5758C8.08539 49.2101 2.70545 52.3607 1.31944 57.6226V57.6226C-0.0665745 62.8845 3.06319 68.2766 8.31971 69.6829L52.6411 81.5406L13.095 104.802C8.4048 107.561 6.8284 113.593 9.56907 118.294V118.294C12.3097 122.994 18.3356 124.594 23.0469 121.872L62.7716 98.9164L51.2566 143.328C49.8909 148.595 53.0414 153.975 58.3034 155.361V155.361C63.5653 156.747 68.9573 153.617 70.3637 148.361L82.2214 104.04Z" fill="white"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M82.2214 104.04L105.483 143.586C108.242 148.276 114.274 149.852 118.974 147.112V147.112C123.675 144.371 125.275 138.345 122.552 133.634L99.5971 93.9091L144.009 105.424C149.276 106.79 154.656 103.639 156.042 98.3773V98.3773C157.428 93.1154 154.298 87.7233 149.042 86.317L104.72 74.4593L144.266 51.1978C148.957 48.439 150.533 42.407 147.792 37.7062V37.7062C145.052 33.0054 139.026 31.4057 134.314 34.1282L94.5898 57.0835L106.105 12.6719C107.471 7.40463 104.32 2.02469 99.058 0.638673V0.638673C93.7961 -0.747342 88.4041 2.38242 86.9977 7.63895L75.14 51.9603L51.8786 12.4142C49.1197 7.72403 43.0878 6.14763 38.387 8.8883V8.8883C33.6862 11.629 32.0865 17.6548 34.809 22.3662L57.7643 62.0908L13.3526 50.5758C8.08539 49.2101 2.70545 52.3607 1.31944 57.6226V57.6226C-0.0665745 62.8845 3.06319 68.2766 8.31971 69.6829L52.6411 81.5406L13.095 104.802C8.4048 107.561 6.8284 113.593 9.56907 118.294V118.294C12.3097 122.994 18.3356 124.594 23.0469 121.872L62.7716 98.9164L51.2566 143.328C49.8909 148.595 53.0414 153.975 58.3034 155.361V155.361C63.5653 156.747 68.9573 153.617 70.3637 148.361L82.2214 104.04Z" fill="url(#paint0_radial_1413_80169)"></path>
+            <path fill-opacity=".6" fill-rule="evenodd" clip-rule="evenodd" d="M82.2214 104.04L105.483 143.586C108.242 148.276 114.274 149.852 118.974 147.112V147.112C123.675 144.371 125.275 138.345 122.552 133.634L99.5971 93.9091L144.009 105.424C149.276 106.79 154.656 103.639 156.042 98.3773V98.3773C157.428 93.1154 154.298 87.7233 149.042 86.317L104.72 74.4593L144.266 51.1978C148.957 48.439 150.533 42.407 147.792 37.7062V37.7062C145.052 33.0054 139.026 31.4057 134.314 34.1282L94.5898 57.0835L106.105 12.6719C107.471 7.40463 104.32 2.02469 99.058 0.638673V0.638673C93.7961 -0.747342 88.4041 2.38242 86.9977 7.63895L75.14 51.9603L51.8786 12.4142C49.1197 7.72403 43.0878 6.14763 38.387 8.8883V8.8883C33.6862 11.629 32.0865 17.6548 34.809 22.3662L57.7643 62.0908L13.3526 50.5758C8.08539 49.2101 2.70545 52.3607 1.31944 57.6226V57.6226C-0.0665745 62.8845 3.06319 68.2766 8.31971 69.6829L52.6411 81.5406L13.095 104.802C8.4048 107.561 6.8284 113.593 9.56907 118.294V118.294C12.3097 122.994 18.3356 124.594 23.0469 121.872L62.7716 98.9164L51.2566 143.328C49.8909 148.595 53.0414 153.975 58.3034 155.361V155.361C63.5653 156.747 68.9573 153.617 70.3637 148.361L82.2214 104.04Z" fill="url(#pattern-home-hero-star-0)" style="mix-blend-mode:multiply"></path>
+            <defs>
+            <pattern id="pattern-home-hero-star-0" patternContentUnits="objectBoundingBox" width="0.625" height="0.625">
+            <use xlink:href="#svg-noise" transform="scale(0.00125)"></use>
+            </pattern>
+            <radialGradient id="paint0_radial_1413_80169" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(124.192 87.08) rotate(149.757) scale(126.034)">
+            <stop stop-color="#FFEBE7"></stop>
+            <stop offset="0.6721" stop-color="#FF9C7C"></stop>
+            <stop offset="0.8164" stop-color="#FF9983"></stop>
+            <stop offset="0.9014" stop-color="#FF774B"></stop>
+            <stop offset="1" stop-color="#E76F00"></stop>
+            </radialGradient>
+            </defs>
+            </svg>
+      </div>
+    <span class="mb-40 rounded-full py-3 border-[#fffce1] border-2 overflow-hidden items-center justify-center"><span class="mx-4 text-[#fffce1]">Why Anthems?</span></span>
+    <div class="h-20 bg-transparent select-none"></div>
+    <h2 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-[#fffce1]" style="line-height: 1.3 !important;">
+        Anthems allows you to <span class="inline-block"><!--<hr class="h-px bg-[#fffce1] inline-block w-full sm: md:translate-y-[3.2rem] lg:translate-y-[4.5rem] border-0">-->easily</span> distribute and monetize your music across the 
+        <span class="inline-flex -z-20" id="atms_anim00">
+          <span class="inline-flex -z-20" id="atms_anim1">g</span><span class="inline-flex -z-20" id="atms_anim2">l</span><span class="inline-flex -z-20" id="atms_anim3">o</span><span class="inline-flex -z-20" id="atms_anim4">b</span><span class="inline-flex -z-20" id="atms_anim5">e</span></span><span id="atms_anim6" class="-z-20">.</span>
+        Empowering artists and labels with cutting-edge tools and dedicated support, so you can focus on making music that matters.
+      </h2>
+     
+      <hr class="h-px bg-[#42433d] border-0 my-20">
+      </section>
+      </div>
+
+      <section class="md:mx-24 mx-12 text-[#fffce1]">
+        <span class="rounded-full py-3 border-[#fffce1] border-2 overflow-hidden items-center justify-center"><span class="mx-4">Supported DSPs</span></span>
+        <div class="h-64 mt-10 bg-transparent">
+
+          <div class="flex justify-between items-center space-x-4 p-4">
+      
+            <div class="relative w-28 h-28 overflow-hidden">
+              <div id="logo-container-1" class="absolute inset-0 flex items-center justify-center">
+                <!-- logo_atms -->
+              </div>
+            </div>
+          
+            <div class="relative w-28 h-28 overflow-hidden">
+              <div id="logo-container-2" class="absolute inset-0 flex items-center justify-center">
+                <!-- logo_atms -->
+              </div>
+            </div>
+          
+            <div class="relative w-28 h-28 overflow-hidden">
+              <div id="logo-container-3" class="absolute inset-0 flex items-center justify-center">
+                <!-- logo_atms -->
+              </div>
+            </div>
+          
+            <div class="relative w-28 h-28 hidden md:block overflow-hidden">
+              <div id="logo-container-4" class="absolute inset-0 flex items-center justify-center">
+                <!-- logo_atms -->
+              </div>
+            </div>
+          </div>
+          
+          </div>
+          
+        
+        </div></section>
+        
+</section>
+</div>  
+  
+</body>
+</html>
