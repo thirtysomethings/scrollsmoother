@@ -6,5 +6,5 @@ Made this because I didn't want to pay for this. You can disable the warning by 
 #### ScrollSmoother
 
 ```html
-<script src="https://rawcdn.githack.com/thirtysomethings/scrollsmoother/refs/heads/main/scroll.min.js" defer>
+<script src="https://rawcdn.githack.com/thirtysomethings/scrollsmoother/refs/heads/main/scroll.min.js" defer></script>
 ```
