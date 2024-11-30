@@ -73,10 +73,10 @@
                     document.addEventListener("readystatechange", checkWarn);
                 else {
                     var e = "object" == typeof B ? B : t && window.gsap;
-                    if (!e.config().crackLog) {console.log("%c[" + i + "] Started / https://github.com/thirtysomethings/scrollsmoother", "font-size:14px;color:pink;")}
                     document.removeEventListener("readystatechange", checkWarn);
                    
                     t && window.console && !window._gsapWarned && "object" == typeof e && !1 !== e.config().crackLog && (
+console.log("%c[" + i + "] Started / https://github.com/thirtysomethings/scrollsmoother", "font-size:14px;color:pink;"),
                         console.log("%c[" + i + "] Success", "font-size:14px;color:pink;"),
                         console.log("%c[" + i + "] Remove this with ({crackLog: false})", "font-size:8px;color:pink;"),
                         window._gsapWarned = 1
